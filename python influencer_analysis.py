@@ -6,6 +6,8 @@ import plotly.express as px
 import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
+from flask import Flask
+import os
 
 # Load the dataset
 df = pd.read_csv('top_insta_influencers_data.csv')
@@ -128,10 +130,13 @@ df.to_csv('processed_influencer_data.csv', index=False)
 
 # 6. Interactive Dashboard with Dash
 
-# Initialize Dash app
-app = dash.Dash(__name__)
+# Initialize the Flask app
+server = Flask(__name__)
 
-# Layout with tabs for insights
+# Initialize the Dash app
+app = dash.Dash(__name__, server=server)
+
+# 6. Interactive Dashboard with Dash
 app.layout = html.Div([
     html.H1("Instagram Influencer Analysis Dashboard"),
     dcc.Tabs([
@@ -160,4 +165,4 @@ app.layout = html.Div([
 
 # Run the Dash app
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run(debug=True, host='127.0.0.1', port=int(os.environ.get('PORT', 8080)))
