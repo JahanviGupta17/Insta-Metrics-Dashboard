@@ -1,6 +1,6 @@
 # Insta Metrics Dashboard
 
-![Insta Metrics Dashboard](path/to/your/screenshot.png)
+![Insta Metrics Dashboard][(https://github.com/JahanviGupta17/Insta-Metrics-Dashboard/blob/main/Screenshot%20(349).png)]
 
 ## Table of Contents
 - [Introduction](#introduction)
