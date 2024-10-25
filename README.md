@@ -1,9 +1,9 @@
 # Insta Metrics Dashboard
 
-![Insta Metrics Dashboard](https://github.com/JahanviGupta17/Insta-Metrics-Dashboard/blob/main/assets/Screenshot%20(349).png)
+![Insta Metrics Dashboard](https://github.com/JahanviGupta17/Insta-Metrics-Dashboard/blob/main/assets/demo%20image/Screenshot%20(349).png)
 
 ## Personalized Offers as per type of influencers:
-![Personalized Offers](https://github.com/JahanviGupta17/Insta-Metrics-Dashboard/blob/main/assets/Screenshot%20(350).png)
+![Personalized Offers](https://github.com/JahanviGupta17/Insta-Metrics-Dashboard/blob/main/assets/demo%20image/Screenshot%20(349).png)
 
 ## Table of Contents
 - [Introduction](#introduction)
