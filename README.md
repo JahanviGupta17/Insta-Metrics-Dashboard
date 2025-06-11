@@ -5,16 +5,6 @@
 ## Personalized Offers as per type of influencers:
 ![Personalized Offers](https://github.com/JahanviGupta17/Insta-Metrics-Dashboard/blob/main/assets/demo%20image/Screenshot%20(349).png)
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
-
 ## Introduction
 Insta Metrics Dashboard is a comprehensive analytics tool designed for Instagram influencers and marketers. This web application allows users to track their Instagram performance, analyze follower engagement, and optimize their content strategy based on real-time data.
 
